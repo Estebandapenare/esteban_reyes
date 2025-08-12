@@ -1,0 +1,131 @@
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page elegante con fondo fijo y desplazamiento interactivo.">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="arepa2.png" type="image/png">
+
+    <title>El Paisa - Supermercado</title>
+</head>
+<body>
+    <!-- Encabezado con navegación -->
+    <header>
+        <h1>El Paisa</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#pedidos">Pide en Linea</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <section id="inicio">
+            <div class="inicio">
+                <img class="imageninicio" src="3.png" alt="bienvenida" height="800px">
+            </div>
+            <div class="inicio2">
+                <h1>Bienvenidos</h1>
+            <p>Aquí encontraras la mejor calidad en productos de todas las marcas</p>
+            </div>
+            
+            
+        </section>
+
+        <section id="productos">
+            <h1>Productos</h1>
+            <div class="imagenes">
+                <div class="item">
+                    <h2>Carnicos</h2>
+                    <img src="carnicos.jpg" alt="carnicos">
+                    <p>Carne fresca y de calidad</p>
+                </div>
+                <div class="item">
+                    <h2>Lacteos</h2>
+                    <img src="lacteos.jpg" alt="lacteos">
+                    <p>De la mejor calidad</p>
+                </div>
+                <div class="item">
+                    <h2>Hogar</h2>
+                    <img src="hogar.jpg" alt="hogar">
+                    <p>Manten tu hogar siempre limpio</p>
+                </div>
+            </div>
+
+            <div class="imagenes">
+                <div class="item">
+                    <h2>Mecato</h2>
+                    <img src="mecato.jpg" alt="mecato">   
+                    <p>Gran variedad de botanas</p>
+                </div>
+                <div class="item">
+                    <h2>Miscelanea</h2>
+                    <img src="miscelanea.jpg" alt="miscelanea">
+                    <p>Para la tarea del niño</p>
+                </div>
+                <div class="item">
+                    <h2>Vegetales</h2>
+                    <img src="vegetales.jpg" alt="vegetales">
+                    <p>Los más frescos del Campo</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pedidos">
+            <h1>Pide en línea</h1>
+            <p>Y ahorrate la fatiga.</p><br>
+            <button>Haz click aquí para pedir</button><br><br>  
+            <div class="imagenes">
+                <div class="item2">
+                    <h1>⏱️</h1>
+                    <h1>Ahorra tiempo</h1>
+                    <p>Llegamos hasta tu puerta, saltate el largo trayecto.</p>
+                </div>
+                <div class="item2">
+                    <h1>🛋️</h1>
+                    <h1>Comodidad</h1>
+                    <p>Compra desde tu casa o desde donde quieras.</p>
+                </div>
+                <div class="item2">
+                    <h1>💰</h1>
+                    <h1>Ofertas a la mano</h1>
+                    <p>No te pierdas de nuestros descuentos en ningún momento.</p>
+                </div>
+                <div class="item2">  
+                    <h1>🌙</h1>
+                    <h1>Disponibilidad 24/7</h1>
+                    <p>A cualquier hora del día, no te quedes sin comprar en nuestra tienda.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+                <div class="form-container">
+                        <h1>Contáctanos</h1>
+                        <form action="#" method="post">
+                                <input type="text" name="nombre" placeholder="Nombre completo" required>
+                                <input type="email" name="email" placeholder="Correo electrónico" required>
+                                <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                                <button type="submit">Enviar</button>
+                        </form>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7955.605175330294!2d-75.24164603652339!3d4.4478000219043725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c5d786f398df%3A0xc2925377157a5bb7!2sBarrio%20Libertador!5e0!3m2!1ses-419!2sco!4v1754685845981!5m2!1ses-419!2sco" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 El Paisa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
